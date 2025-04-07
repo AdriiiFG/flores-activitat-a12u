@@ -41,24 +41,3 @@ cd projecte-markdown
 Aquest projecte és un exemple per practicar com fer servir Markdown i GitHub.
 
 > “La documentació és tan important com el codi.”
-
-## Continguts
-
-- [Funcionalitats](#funcionalitats)
-- [Taula de dades](#taula-de-dades)
-- [Glossari](#glossari)
-- [Imatge](#imatge)
-- [Enllaços útils](#enllaços-útils)
-
-## Funcionalitats
-
-- Registrar usuaris
-- Guardar dades
-- Exportar informes
-
-## Taula de dades
-
-| Nom     | Rol        | Estat  |
-|---------|------------|--------|
-| Clara   | Disseny    | Actiu  |
-| Jordi   | Backend    | Pausat |
