@@ -45,12 +45,12 @@ Un cop creat el repositori a GitHub, hem de clonar-lo al nostre ordinador. Això
 Copia l'URL del repositori des de GitHub (per exemple, https://github.com/els_teus_usuari/projecte-markdown.git).
 
 Obre una terminal o línia de comandes i escriu el següent:
-
-# Markdown
-bash
-Copiar código
-git clone https://github.com/els_teus_usuari/projecte-markdown.git
-cd projecte-markdown
+<hr>
+    ```bash
+    Copiar código
+    git clone https://github.com/els_teus_usuari/projecte-markdown.git
+    cd projecte-markdown
+<hr>
 
 ### 3. Afegir introducció i una cita
 
@@ -60,15 +60,14 @@ Ara, anem a documentar el projecte amb una introducció bàsica i una cita. Aix�
 **Passos a seguir:**
 
 Obre el fitxer README.md i afegeix el següent contingut:
+<hr>
+    ```bash
+    # Projecte Markdown
 
-markdown
-Copiar código
+    Aquest projecte és un exemple per practicar com fer servir Markdown i GitHub.
 
-# Projecte Markdown
-
-Aquest projecte és un exemple per practicar com fer servir Markdown i GitHub.
-
-> “La documentació és tan important com el codi.”
+    > “La documentació és tan important com el codi.”
+<hr>
 
 ### 4. Afegir taula de continguts
 
@@ -78,13 +77,37 @@ Una taula de continguts ajuda els lectors a trobar fàcilment les seccions impor
 **Passos a seguir:**
 
 Just sota la introducció, afegeix aquest codi per crear una taula de continguts:
+<hr>
+    ```bash
+    ## Continguts
 
-# markdown
+    - [Funcionalitats](#funcionalitats)
+    - [Taula de dades](#taula-de-dades)
+    - [Glossari](#glossari)
+    - [Imatge](#imatge)
+    - [Enllaços útils](#enllaços-útils)
+<hr>
 
-## Continguts
+5. Afegir funcionalitats i taula de dades
+Explicació:
+Ara afegirem una descripció de les funcionalitats del projecte i una taula per mostrar dades estructurades.
 
-- [Funcionalitats](#funcionalitats)
-- [Taula de dades](#taula-de-dades)
-- [Glossari](#glossari)
-- [Imatge](#imatge)
-- [Enllaços útils](#enllaços-útils)
+Passos a seguir:
+
+Afegeix una secció de funcionalitats i una taula de dades al teu fitxer README.md:
+
+<hr>
+    ```bash
+    ## Funcionalitats
+
+    - Registrar usuaris
+    - Guardar dades
+    - Exportar informes
+
+    ## Taula de dades
+
+    | Nom     | Rol        | Estat  |
+    |---------|------------|--------|
+    | Clara   | Disseny    | Actiu  |
+    | Jordi   | Backend    | Pausat |
+<hr>
