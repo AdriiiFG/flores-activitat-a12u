@@ -2,74 +2,35 @@
 
 ## Objectiu de l’activitat
 
-En aquesta activitat aprendrem a crear un projecte documentat amb **Markdown** dins d’un repositori de **GitHub**, aplicant bones pràctiques com:
-
-- L’ús de Markdown avançat (taules, cites, enllaços, imatges, definicions...).
-- Commits freqüents i amb missatges clars.
-- L’ús d’un fitxer `.gitignore` per excloure fitxers innecessaris del control de versions.
-
-> L’objectiu és practicar tant la part tècnica de GitHub com la claredat en la documentació.
+L'objectiu d'aquesta activitat és practicar l'ús de **Markdown** per documentar un projecte i utilitzar **GitHub** per gestionar els canvis. En aquesta activitat, aprendrem a utilitzar concepts avançats de Markdown (com taules, imatges, i llistes de definició) i a crear un fitxer `.gitignore` per excloure arxius que no volem seguir al nostre projecte.
 
 ---
 
-## Requisits previs
+## Abans de començar
 
-- Tenir un compte de GitHub actiu.
-- Tenir Git instal·lat al teu ordinador.
-- Saber com fer commits i com editar fitxers Markdown.
+### Requisits previs:
 
----
-
-## Instruccions pas a pas
-
-### 1. Crear el repositori a GitHub
-
-- Crea un nou repositori a GitHub amb el nom `projecte-markdown`.
-- Marca l’opció **“Add a README file”**.
-- No cal afegir `.gitignore` ni llicència de moment.
+1. **GitHub**: Necessites tenir un compte a GitHub i crear un repositori.
+2. **Git**: Necessites tenir Git instal·lat al teu ordinador per poder clonar el repositori i pujar els canvis.
+3. **Coneixements bàsics de Git**: Si ja saps com fer commits i fer push a GitHub, estàs llest per començar!
 
 ---
 
-### 2. Clonar el repositori a l’ordinador
+## 🔧 Instruccions detallades pas a pas
 
-```bash
-git clone https://github.com/el-teu-usuari/projecte-markdown.git
-cd projecte-markdown
+A continuació, et donaré els passos que has de seguir. Recorda fer un commit cada vegada que facis un canvi important i que el missatge sigui clar per explicar què has fet.
 
-# Projecte Markdown
+---
 
-Aquest projecte és un exemple per practicar com fer servir Markdown i GitHub.
+### 🔹 1. Crear el repositori a GitHub
 
-> “La documentació és tan important com el codi.”
+**Explicació:**  
+El primer pas és crear un repositori a GitHub on podràs guardar el projecte. Un repositori és com un contenidor en línia per al teu projecte, on pots fer un seguiment de tots els canvis que facis.
 
-## Continguts
+**Passos a seguir:**
 
-- [Funcionalitats](#funcionalitats)
-- [Taula de dades](#taula-de-dades)
-- [Glossari](#glossari)
-- [Imatge](#imatge)
-- [Enllaços útils](#enllaços-útils)
-
-## Funcionalitats
-
-- Registrar usuaris
-- Guardar dades
-- Exportar informes
-
-## Taula de dades
-
-| Nom     | Rol        | Estat  |
-|---------|------------|--------|
-| Clara   | Disseny    | Actiu  |
-| Jordi   | Backend    | Pausat |
-
-## Glossari
-
-**Frontend**  
-: Part del projecte que veu l’usuari.
-
-**Backend**  
-: Part que gestiona dades i lògica.
-
-**Commit**  
-: Enregistrament d’un canvi en el projecte.
+1. Aneu a [GitHub](https://github.com) i clica sobre "New repository".
+2. Dona-li un nom al teu repositori, per exemple, `projecte-markdown`.
+3. Marca la casella **“Add a README file”** perquè aquest fitxer sigui creat automàticament quan creïs el repositori.
+4. No cal afegir `.gitignore` ni llicència en aquest moment.
+5. Clica **Create repository**.
