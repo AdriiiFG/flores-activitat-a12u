@@ -61,12 +61,14 @@ Ara, anem a documentar el projecte amb una introducció bàsica i una cita. Aix�
 
 Obre el fitxer README.md i afegeix el següent contingut:
 <hr>
-    ```bash
-    # Projecte Markdown
 
-    Aquest projecte és un exemple per practicar com fer servir Markdown i GitHub.
+```markdown
+# Projecte Markdown
 
-    > “La documentació és tan important com el codi.”
+Aquest projecte és un exemple per practicar com fer servir Markdown i GitHub.
+
+> “La documentació és tan important com el codi.”
+```
 <hr>
 
 ### 4. Afegir taula de continguts
@@ -78,14 +80,16 @@ Una taula de continguts ajuda els lectors a trobar fàcilment les seccions impor
 
 Just sota la introducció, afegeix aquest codi per crear una taula de continguts:
 <hr>
-    ```bash
-    ## Continguts
 
-    - [Funcionalitats](#funcionalitats)
-    - [Taula de dades](#taula-de-dades)
-    - [Glossari](#glossari)
-    - [Imatge](#imatge)
-    - [Enllaços útils](#enllaços-útils)
+```markdown
+## Continguts
+
+- [Funcionalitats](#funcionalitats)
+- [Taula de dades](#taula-de-dades)
+- [Glossari](#glossari)
+- [Imatge](#imatge)
+- [Enllaços útils](#enllaços-útils)
+```
 <hr>
 
 5. Afegir funcionalitats i taula de dades
@@ -97,17 +101,43 @@ Passos a seguir:
 Afegeix una secció de funcionalitats i una taula de dades al teu fitxer README.md:
 
 <hr>
-    ```bash
-    ## Funcionalitats
 
-    - Registrar usuaris
-    - Guardar dades
-    - Exportar informes
+```markdown
 
-    ## Taula de dades
+## Funcionalitats
 
-    | Nom     | Rol        | Estat  |
-    |---------|------------|--------|
-    | Clara   | Disseny    | Actiu  |
-    | Jordi   | Backend    | Pausat |
+- Registrar usuaris
+- Guardar dades
+- Exportar informes
+
+## Taula de dades
+
+| Nom     | Rol        | Estat  |
+|---------|------------|--------|
+| Clara   | Disseny    | Actiu  |
+| Jordi   | Backend    | Pausat |
+```
+<hr>
+
+6. Afegir glossari amb llistes de definició (nou concepte)
+Explicació:
+Les llistes de definició són útils per proporcionar explicacions o descripcions curtes de termes específics dins del projecte. Aquí utilitzarem aquesta estructura per definir algunes paraules clau del projecte.
+
+Passos a seguir:
+
+Afegeix una nova secció per al glossari:
+<hr>
+
+```markdown
+## Glossari
+
+**Frontend**  
+: Part del projecte que veu l’usuari.
+
+**Backend**  
+: Part que gestiona dades i lògica.
+
+**Commit**  
+: Enregistrament d’un canvi en el projecte.
+```
 <hr>
