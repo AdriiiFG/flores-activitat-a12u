@@ -92,11 +92,12 @@ Just sota la introducció, afegeix aquest codi per crear una taula de continguts
 ```
 <hr>
 
-5. Afegir funcionalitats i taula de dades
-Explicació:
+### 5. Afegir funcionalitats i taula de dades
+
+**Explicació:**
 Ara afegirem una descripció de les funcionalitats del projecte i una taula per mostrar dades estructurades.
 
-Passos a seguir:
+**Passos a seguir:**
 
 Afegeix una secció de funcionalitats i una taula de dades al teu fitxer README.md:
 
@@ -119,11 +120,12 @@ Afegeix una secció de funcionalitats i una taula de dades al teu fitxer README.
 ```
 <hr>
 
-6. Afegir glossari amb llistes de definició (nou concepte)
-Explicació:
+### 6. Afegir glossari amb llistes de definició (nou concepte)
+
+**Explicació:**
 Les llistes de definició són útils per proporcionar explicacions o descripcions curtes de termes específics dins del projecte. Aquí utilitzarem aquesta estructura per definir algunes paraules clau del projecte.
 
-Passos a seguir:
+**Passos a seguir:**
 
 Afegeix una nova secció per al glossari:
 <hr>
@@ -149,16 +151,20 @@ Afegir imatges a la documentació ajuda a fer-la més visual i entenedora. En aq
 
 **Passos a seguir:**
 
-Crea una carpeta anomenada img/ dins del teu repositori.
+# 1. Crea una carpeta anomenada img/ dins del teu repositori.
 
 <hr>
-```markdown
+
+```markdown 
+##crear carpeta
+
 mkdir img
-Afegeix una imatge a la carpeta img/ (per exemple, captura.png).
 ```
 <hr>
 
-Al fitxer README.md, afegeix la imatge:
+# 2. Afegeix una imatge a la carpeta img/ (per exemple, captura.png).
+
+# 3. Al fitxer README.md, afegeix la imatge:
 
 <hr>
 
@@ -168,3 +174,30 @@ Al fitxer README.md, afegeix la imatge:
 ![Captura del projecte](img/captura.png)
 ```
 <hr>
+
+### 8. Crear el fitxer .gitignore
+
+**Explicació:**
+El fitxer .gitignore ens permet excloure certs arxius (com els arxius temporals o secrets) perquè no es pugin al repositori. Això ajuda a mantenir el projecte net i organitzat.
+
+**Passos a seguir:**
+
+# 1. Crea un fitxer anomenat .gitignore:
+
+<hr>
+```markdown
+touch .gitignore
+```
+<hr>
+
+# 2. Afegeix el següent contingut per excloure els fitxers comuns no desitjats:
+
+<hr>
+```markdown
+*.log
+node_modules/
+*.tmp
+.env
+```
+<hr>
+
