@@ -49,3 +49,16 @@ Aquest projecte és un exemple per practicar com fer servir Markdown i GitHub.
 - [Glossari](#glossari)
 - [Imatge](#imatge)
 - [Enllaços útils](#enllaços-útils)
+
+## Funcionalitats
+
+- Registrar usuaris
+- Guardar dades
+- Exportar informes
+
+## Taula de dades
+
+| Nom     | Rol        | Estat  |
+|---------|------------|--------|
+| Clara   | Disseny    | Actiu  |
+| Jordi   | Backend    | Pausat |
