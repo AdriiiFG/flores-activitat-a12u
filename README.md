@@ -16,7 +16,7 @@ L'objectiu d'aquesta activitat és practicar l'ús de **Markdown** per documenta
 
 ---
 
-## 🔧 Instruccions detallades pas a pas
+## Instruccions detallades pas a pas
 
 A continuació, et donaré els passos que has de seguir. Recorda fer un commit cada vegada que facis un canvi important i que el missatge sigui clar per explicar què has fet.
 
@@ -34,3 +34,37 @@ El primer pas és crear un repositori a GitHub on podràs guardar el projecte. U
 3. Marca la casella **“Add a README file”** perquè aquest fitxer sigui creat automàticament quan creïs el repositori.
 4. No cal afegir `.gitignore` ni llicència en aquest moment.
 5. Clica **Create repository**.
+
+### 2. Clonar el repositori
+
+**Explicació:**
+Un cop creat el repositori a GitHub, hem de clonar-lo al nostre ordinador. Això ens permetrà treballar directament des del nostre entorn local.
+
+**Passos a seguir:**
+
+Copia l'URL del repositori des de GitHub (per exemple, https://github.com/els_teus_usuari/projecte-markdown.git).
+
+Obre una terminal o línia de comandes i escriu el següent:
+
+bash
+Copiar código
+git clone https://github.com/els_teus_usuari/projecte-markdown.git
+cd projecte-markdown
+
+### 3. Afegir introducció i una cita
+
+**Explicació:**
+Ara, anem a documentar el projecte amb una introducció bàsica i una cita. Això és una bona pràctica per començar a explicar què fa el projecte.
+
+**Passos a seguir:**
+
+Obre el fitxer README.md i afegeix el següent contingut:
+
+markdown
+Copiar código
+
+# Projecte Markdown
+
+Aquest projecte és un exemple per practicar com fer servir Markdown i GitHub.
+
+> “La documentació és tan important com el codi.”
