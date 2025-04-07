@@ -46,6 +46,7 @@ Copia l'URL del repositori des de GitHub (per exemple, https://github.com/els_te
 
 Obre una terminal o línia de comandes i escriu el següent:
 
+# Markdown
 bash
 Copiar código
 git clone https://github.com/els_teus_usuari/projecte-markdown.git
@@ -68,3 +69,22 @@ Copiar código
 Aquest projecte és un exemple per practicar com fer servir Markdown i GitHub.
 
 > “La documentació és tan important com el codi.”
+
+### 4. Afegir taula de continguts
+
+**Explicació:**
+Una taula de continguts ajuda els lectors a trobar fàcilment les seccions importants del teu document. A continuació, afegirem aquesta taula per millorar la navegació.
+
+**Passos a seguir:**
+
+Just sota la introducció, afegeix aquest codi per crear una taula de continguts:
+
+# markdown
+
+## Continguts
+
+- [Funcionalitats](#funcionalitats)
+- [Taula de dades](#taula-de-dades)
+- [Glossari](#glossari)
+- [Imatge](#imatge)
+- [Enllaços útils](#enllaços-útils)
