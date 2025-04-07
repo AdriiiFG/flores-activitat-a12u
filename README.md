@@ -46,10 +46,13 @@ Copia l'URL del repositori des de GitHub (per exemple, https://github.com/els_te
 
 Obre una terminal o línia de comandes i escriu el següent:
 <hr>
-    ```bash
-    Copiar código
-    git clone https://github.com/els_teus_usuari/projecte-markdown.git
-    cd projecte-markdown
+
+```markdown
+
+git clone https://github.com/els_teus_usuari/projecte-markdown.git
+cd projecte-markdown
+```
+
 <hr>
 
 ### 3. Afegir introducció i una cita
@@ -169,6 +172,7 @@ mkdir img
 <hr>
 
 ```markdown
+
 ## Imatge
 
 ![Captura del projecte](img/captura.png)
@@ -185,7 +189,9 @@ El fitxer .gitignore ens permet excloure certs arxius (com els arxius temporals 
 # 1. Crea un fitxer anomenat .gitignore:
 
 <hr>
+
 ```markdown
+
 touch .gitignore
 ```
 <hr>
@@ -193,7 +199,9 @@ touch .gitignore
 # 2. Afegeix el següent contingut per excloure els fitxers comuns no desitjats:
 
 <hr>
+
 ```markdown
+
 *.log
 node_modules/
 *.tmp
@@ -201,3 +209,21 @@ node_modules/
 ```
 <hr>
 
+### 9. Revisió final i afegir enllaços útils
+
+**Explicació:**
+Finalment, afegirem enllaços útils que puguin ajudar als altres a entendre millor el projecte o a aprendre més sobre les eines que estem utilitzant.
+
+**Passos a seguir:**
+
+Afegeix una secció d'enllaços útils:
+
+<hr>
+
+```markdown
+## Enllaços útils
+
+- [Guia Markdown](https://www.markdownguide.org/)
+- [GitHub Docs](https://docs.github.com/)
+```
+<hr>
