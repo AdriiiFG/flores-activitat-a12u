@@ -62,3 +62,14 @@ Aquest projecte és un exemple per practicar com fer servir Markdown i GitHub.
 |---------|------------|--------|
 | Clara   | Disseny    | Actiu  |
 | Jordi   | Backend    | Pausat |
+
+## Glossari
+
+**Frontend**  
+: Part del projecte que veu l’usuari.
+
+**Backend**  
+: Part que gestiona dades i lògica.
+
+**Commit**  
+: Enregistrament d’un canvi en el projecte.
