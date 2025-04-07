@@ -141,3 +141,30 @@ Afegeix una nova secció per al glossari:
 : Enregistrament d’un canvi en el projecte.
 ```
 <hr>
+
+### 7. Afegir una imatge
+
+**Explicació:**
+Afegir imatges a la documentació ajuda a fer-la més visual i entenedora. En aquest cas, afegirem una imatge del projecte.
+
+**Passos a seguir:**
+
+Crea una carpeta anomenada img/ dins del teu repositori.
+
+<hr>
+```markdown
+mkdir img
+Afegeix una imatge a la carpeta img/ (per exemple, captura.png).
+```
+<hr>
+
+Al fitxer README.md, afegeix la imatge:
+
+<hr>
+
+```markdown
+## Imatge
+
+![Captura del projecte](img/captura.png)
+```
+<hr>
