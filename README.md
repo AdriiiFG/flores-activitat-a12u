@@ -154,7 +154,7 @@ Afegir imatges a la documentació ajuda a fer-la més visual i entenedora. En aq
 
 **Passos a seguir:**
 
-# 1. Crea una carpeta anomenada img/ dins del teu repositori.
+### 1. Crea una carpeta anomenada img/ dins del teu repositori.
 
 <hr>
 
@@ -165,9 +165,9 @@ mkdir img
 ```
 <hr>
 
-# 2. Afegeix una imatge a la carpeta img/ (per exemple, captura.png).
+### 2. Afegeix una imatge a la carpeta img/ (per exemple, captura.png).
 
-# 3. Al fitxer README.md, afegeix la imatge:
+### 3. Al fitxer README.md, afegeix la imatge:
 
 <hr>
 
@@ -186,7 +186,7 @@ El fitxer .gitignore ens permet excloure certs arxius (com els arxius temporals 
 
 **Passos a seguir:**
 
-# 1. Crea un fitxer anomenat .gitignore:
+### 1. Crea un fitxer anomenat .gitignore:
 
 <hr>
 
@@ -196,7 +196,7 @@ touch .gitignore
 ```
 <hr>
 
-# 2. Afegeix el següent contingut per excloure els fitxers comuns no desitjats:
+### 2. Afegeix el següent contingut per excloure els fitxers comuns no desitjats:
 
 <hr>
 
